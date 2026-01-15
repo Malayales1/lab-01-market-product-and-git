@@ -361,7 +361,7 @@ Follow the [procedure for each task](#procedure-for-each-task).
 > [!NOTE]
 > Pick **one** optional task below. Still follow the [procedure for each task](#procedure-for-each-task).
 
-#### Track A — Merge conflicts & resolution
+### 1. Merge conflicts & resolution
 
 1. [ ] Create the issue `[Task] Deep dive: Merge conflicts`.
 2. [ ] Complete a short learning resource on conflicts:
@@ -375,49 +375,36 @@ Follow the [procedure for each task](#procedure-for-each-task).
     - [ ] How you resolved it (1–2 sentences).
 6. [ ] Merge the PR.
 
-**Completion check (TA)**
-- PR shows that it had conflicts and was later fixed.
-- PR description contains `Conflict resolution note`.
-
-#### Track B — Add a CI check (GitHub Actions)
+### 2. Add a CI check (`GitHub Actions`)
 
 1. [ ] Create the issue `[Task] Deep dive: Add CI`.
-2. [ ] Read: [GitHub Actions — Quickstart](https://docs.github.com/en/actions/writing-workflows/quickstart).
-3. [ ] Add a GitHub Actions workflow that runs `markdownlint` on every PR (use `.markdownlint.jsonc`).
+2. [ ] Read [Quickstart for `GitHub Actions`](https://docs.github.com/en/actions/get-started/quickstart).
+3. [ ] Add a `GitHub Actions` workflow that runs `markdownlint` on every PR (use `.markdownlint.jsonc`).
 4. [ ] Open a PR for the workflow and make sure the checks pass.
 
-**Completion check (TA)**
-- PR has a green check for the lint job.
-- Workflow file exists under `.github/workflows/`.
-
-#### Track C — Tag and release notes (shipping mindset)
+### 3. Tag and release notes (shipping mindset)
 
 1. [ ] Create the issue `[Task] Deep dive: Tag and release`.
-2. [ ] Read: [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
-3. [ ] Create a tag `v0.1.0` for the current state of your lab repo.
-4. [ ] Create a GitHub Release for `v0.1.0` with notes:
+2. [ ] Read [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+3. [ ] Read [Semantic Versioning 2.0.0](https://semver.org/).
+4. [ ] Create a tag `v0.1.0` for the current state of your lab repo.
+5. [ ] Create a release for `v0.1.0` with notes:
     - [ ] What you built (links to your key docs/PRs).
     - [ ] What you learned (3–5 bullets).
     - [ ] What you would do next (2–3 bullets).
 
-**Completion check (TA)**
-- A GitHub Release exists for tag `v0.1.0` and contains release notes.
+### 4. Skill development strategy (from job market → deep learning → planning)
 
-#### Track D — Skill spotlight (from job market → deep learning → teach-back)
-
-1. [ ] Create the issue `[Task] Deep dive: Skill spotlight`.
-2. [ ] Pick **one** skill you found in job postings / roadmap.sh that you want to actually learn deeper (examples: SQL joins/indexes, HTTP auth, Docker basics, message queues, caching).
-3. [ ] Choose **one** high-quality learning resource and link it in the issue (docs/tutorial/course).
-4. [ ] Create `./docs/skill-spotlight/<skill>.md` with:
-    - [ ] `## What it is` (5–10 sentences in your own words).
-    - [ ] `## Where it shows up in my product` (link to a component from `architecture.md` and explain the connection).
-    - [ ] `## Mini demo` (a short example: snippet, config, pseudo-code, or a small diagram).
-    - [ ] `## Exercises` (3 small practice tasks).
-    - [ ] `## Self-check` (5 quiz questions + short answers).
-    - [ ] `## References` (links you used).
-
-**Completion check (TA)**
-- `./docs/skill-spotlight/<skill>.md` exists and contains all sections above and a link to `architecture.md`.
+1. [ ] Create the issue `[Task] Skill development strategy`.
+2. [ ] Choose one skill that you decided to improve this semester in [Task 3](#3-my-tech-skills-and-the-market-roadmapsh-and-job-postings).
+3. [ ] Create `./docs/skill-development-strategy.md` with:
+    - [ ] `## About the skill` (3–5 sentences):
+      - [ ] What is this skill?
+    - [ ] `## Planning` (5–10 sentences):
+      - [ ] Plan to develop this skill during the semester.
+      - [ ] Include specific resources, timeline, and milestones.
+    - [ ] `## Tracking` (5-10 sentences):
+      - [ ] How will I measure my progress in developing the skill?
 
 ## Homework
 
