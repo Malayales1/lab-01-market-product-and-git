@@ -13,7 +13,7 @@ To kickstart the course, you will explore two things:
 - [Submission checklist](#submission-checklist)
 - [Repo structure](#repo-structure)
 - [Tasks](#tasks)
-- [Time estimates](#time-estimates)
+  - [Time estimates](#time-estimates)
   - [Lab setup](#lab-setup)
   - [Required tasks](#required-tasks)
   - [Optional tasks](#optional-tasks)
@@ -67,7 +67,9 @@ By the end of the lab:
 
 ## Tasks
 
-## Time estimates
+### Time estimates
+
+Lab setup + Required tasks
 
 | Task      | Time             |
 | --------- | ---------------- |
