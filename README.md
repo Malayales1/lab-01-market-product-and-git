@@ -74,6 +74,7 @@ Lab setup + Required tasks
 | Task      | Time             |
 | --------- | ---------------- |
 | Lab setup | ~30 min          |
+| Task 0    | ~15 min          |
 | Task 1    | ~30–40 min       |
 | Task 2    | ~30–40 min       |
 | Task 3    | ~30–40 min       |
@@ -88,6 +89,7 @@ First complete the [lab setup](./lab/setup.md).
 
 Follow the [procedure for tasks](./lab/tasks/required/procedure.md) for each of these tasks:
 
+0. [Practice the git workflow](./lab/tasks/required/task-0.md#practice-the-git-workflow)
 1. [Choose a product and study its architecture](./lab/tasks/required/task-1.md#choose-a-product-and-study-its-architecture)
 2. [Study tech roles involved in the chosen product](./lab/tasks/required/task-2.md#study-tech-roles-involved-in-the-chosen-product)
 3. [Compare your tech skills with the market needs](./lab/tasks/required/task-3.md#compare-your-tech-skills-with-the-market-needs)
