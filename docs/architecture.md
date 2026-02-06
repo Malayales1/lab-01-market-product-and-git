@@ -33,7 +33,7 @@ During this flow, Client Applications exchange message payloads and authenticati
 
 Client applications are deployed on user devices across different platforms. Backend services such as the API Gateway, Authentication Service, Messaging Service, and Notification Service are deployed in geographically distributed data centers. Media Storage is deployed on dedicated storage clusters integrated with content delivery networks. Load balancers distribute traffic across service replicas to ensure scalability and fault tolerance.
 
-## Assumptions
+## Assumptions //
 
 The Messaging Service is horizontally scaled using sharding based on user or chat identifiers.
 Media Storage uses deduplication to reduce storage costs for identical files.
